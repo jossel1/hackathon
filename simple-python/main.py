@@ -22,3 +22,9 @@ def calculate_weather_score(description):
 
     score = weather_scores.get(description, 0)
     return score
+
+SECRET_TOKEN = "xkdknfcskd-1213-xcsbfcnscb-123"
+
+
+def connect():
+    print(SECRET_TOKEN)
